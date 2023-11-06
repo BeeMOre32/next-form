@@ -1,6 +1,6 @@
-import { formType } from '@/types/formFieldConstants';
+import { formTypes } from '@/constants/formFieldConstants';
 
-declare type fieldDataType = {
+declare type FieldDataType = {
   id: string;
   title: string;
   subtitle: string;
@@ -8,9 +8,12 @@ declare type fieldDataType = {
   formType: formType;
   isRequired: boolean;
   listingType: string;
+  index: number;
 };
 
-declare type formDatType = {
+declare type FormDataType = {
   id: string;
-  fieldList: fieldDataType[];
+  fieldList: FieldDataType[];
 };
+
+declare type formType = (typeof formTypes)[number];

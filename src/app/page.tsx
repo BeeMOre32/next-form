@@ -6,6 +6,7 @@ export default function Home() {
   return (
     <div className="flex w-full min-h-screen relative">
       <SideNavbar />
+      <Divider orientation="vertical" />
     </div>
   );
 }
