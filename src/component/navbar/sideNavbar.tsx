@@ -1,5 +1,10 @@
 import React from 'react';
+import FormFieldList from '@/component/navbar/FormFieldList';
 
 export default function SideNavbar() {
-  return <div className="">요소 추가하기</div>;
+  return (
+    <div>
+      <FormFieldList />
+    </div>
+  );
 }

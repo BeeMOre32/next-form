@@ -1,0 +1,15 @@
+export const formTypes = [
+  'heading',
+  'text',
+  'textarea',
+  'dropDown',
+  'checkbox',
+  'radio',
+  'input',
+  'rating',
+  'star',
+  'email',
+  'phone',
+  'date',
+  'submit',
+] as const;
